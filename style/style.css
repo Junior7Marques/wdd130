@@ -1,6 +1,24 @@
 h1{
     background-color: rgba(226, 211, 211, 0.466);
+    text-indent: 150px;
 }
 nav{
-    background-color: rgb(137, 168, 235);
+    background-color: rgb(52, 104, 216);
+    text-indent: 150px;
+    padding: 15px;
+}
+a{
+    color: white; 
+}
+a:hover{
+    background-color: white;
+    color: rgb(137, 168, 235);
+    padding: 13px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration-style: solid;
+    padding: 15px;
 }
