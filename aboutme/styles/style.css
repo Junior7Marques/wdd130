@@ -39,3 +39,12 @@ main{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
+div{
+    background-color:rgba(226, 211, 211, 0.466);
+}
+div:hover{
+    background-color:rgb(52, 104, 216) ;
+    color:white;
+    text-decoration: solid;
+    font-size: x-large;
+}
