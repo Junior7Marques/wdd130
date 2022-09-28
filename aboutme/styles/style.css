@@ -39,7 +39,7 @@ main{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-div:hover{
+.parag:hover:hover{
     background-color:rgb(52, 104, 216) ;
     color:white;
     text-decoration: solid;
