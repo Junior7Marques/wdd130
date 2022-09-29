@@ -3,14 +3,15 @@
 
 h1{
     background-color: rgba(226, 211, 211, 0.466);
-    text-indent: 200px;
+    text-indent: 300px;
     font-family: 'Abyssinica SIL',sans-serif;
-    padding: 50px;
+    padding: 60px;
 }
 nav{
     background-color: rgb(52, 104, 216);
-    text-indent: 200px; 
-    padding: 20px;
+    text-indent: 300px; 
+    padding: 40px;
+    font-size: x-large;
 }
 a{
     color: white;
