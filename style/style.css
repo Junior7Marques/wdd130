@@ -9,9 +9,9 @@ h1{
 }
 nav{
     background-color: rgb(52, 104, 216);
-    text-indent: 300px; 
+    text-indent: 300px;
     padding: 40px;
-    font-size:medium;
+    font-size:larger;
 }
 a{
     color: white;
