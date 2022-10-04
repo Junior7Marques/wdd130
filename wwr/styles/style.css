@@ -17,3 +17,11 @@ main section{
 #background{
     height: 725px;
 }
+nav{
+    background-color: #ec981a;
+    color: white;
+}
+nav a:hover{
+    background-color: #9FD356;
+    color: white;
+}
