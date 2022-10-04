@@ -20,8 +20,14 @@ main section{
 nav{
     background-color: #ec981a;
     color: white;
+    list-style-type: none;
+    display: flex;
 }
 nav a:hover{
     background-color: #9FD356;
     color: white;
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
 }
