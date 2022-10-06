@@ -22,6 +22,7 @@ main section{
 }
 #background{
     height: 725px;
+    background-color: #05668d;
 }
 nav{
     background-color: #ec981a;
