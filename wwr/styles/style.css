@@ -97,6 +97,8 @@ footer p a:hover{
     text-decoration: underline;
     background-color:#9FD356;
     color: white;
+    border-radius: 5px;
+    padding: 10px 25px;
 }
 footer p a{
     text-decoration: none;
