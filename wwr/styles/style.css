@@ -64,12 +64,12 @@ body{
 footer{
     background-color: #ec981a;
     font-size: 1.2em;
-    font-family:'Abyssinica SIL',serif;
+    font-family:'Abyssinica SIL', 'Verdana',sans-serif;
     text-align: center;
     text-decoration: none;
 }
 h1, h2{
-    font-family: 'Abyssinica SIL',serif;
+    font-family: 'Abyssinica SIL', 'Verdana',sans-serif;
 }
 .icon{
     width: 80px;
@@ -94,5 +94,5 @@ footer p a{
     width: 100%;
 }
 .msg p{
-    font-family: 'Source Sans Pro:ital',sans-serif;
+    font-family: 'Source Sans Pro:ital', 'Verdana',sans-serif;
 }
