@@ -35,10 +35,10 @@ nav{
 nav a:hover{
     background-color: #9FD356;
     color: white;
-    padding:1em;
     min-width: 120px;
     text-decoration: none;
     padding: 30px;
+    border-radius: 5px;
 }
 header{
     background-color: #ec981a;
