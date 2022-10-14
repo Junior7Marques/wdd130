@@ -47,7 +47,7 @@ body{
 }
 .book, .join{
     background-color: #05668d;
-    font-size: larger;
+    font-size: 18px;
     text-decoration: none;
     color: black;
 }
@@ -95,4 +95,8 @@ footer p a{
 }
 .msg p{
     font-family: 'Source Sans Pro:ital', 'Helvetica',sans-serif;
+    font-size: 8em;
+}
+.home-title{
+    font-size: 2em;
 }
