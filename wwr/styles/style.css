@@ -30,7 +30,7 @@ nav{
     color: white;
     text-align: center;
     line-height: 3em;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 nav a:hover{
     background-color: #9FD356;
@@ -38,7 +38,7 @@ nav a:hover{
     padding:1em;
     min-width: 120px;
     text-decoration: none;
-    padding: 35px;
+    padding: 30px;
 }
 header{
     background-color: #ec981a;
@@ -55,6 +55,7 @@ body{
     color: black;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #9FD356;
@@ -124,4 +125,10 @@ footer .social img{
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img{
+    box-sizing: border-box;
 }
