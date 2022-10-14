@@ -10,6 +10,7 @@ nav a{
     color: white;
     text-decoration: none;
     font-family: 'Abyssinica SIL',serif;
+    padding: 35px;
 }
 #hero-msg, #hero-msg{
     text-align: center;
@@ -37,7 +38,7 @@ nav a:hover{
     padding:1em;
     min-width: 120px;
     text-decoration: none;
-    padding: 10px;
+    padding: 35px;
 }
 header{
     background-color: #ec981a;
@@ -52,6 +53,8 @@ body{
     font-size: 18px;
     text-decoration: none;
     color: black;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 .book:hover, .join:hover{
     background-color: #9FD356;
@@ -63,6 +66,7 @@ body{
 .msg{
     background-color: #ec981a;
     line-height: 2em;
+    padding: 35px;
 }
 footer{
     background-color: #ec981a;
@@ -70,6 +74,8 @@ footer{
     font-family:'Abyssinica SIL', 'Verdana',sans-serif;
     text-align: center;
     text-decoration: none;
+    margin-top: 200px;
+    padding: 25px 50px;
 }
 h2{
     font-family: 'Abyssinica SIL', 'Verdana',sans-serif;
@@ -80,6 +86,7 @@ h2{
 }
 .logo{
     width: 170px;
+    padding-top: 10px;
 }
 .hero-box{
     width: 80px;
@@ -100,10 +107,21 @@ footer p a{
 .msg p{
     font-family: 'Source Sans Pro:ital', 'Helvetica',sans-serif;
     font-size: 1.5em;
+    padding-bottom: 15px;
 }
 .home-title{
     font-size: 4em;
+    margin-top: 10px;
 }
 h4, h2{
     font-size: 2em;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
