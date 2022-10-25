@@ -17,7 +17,15 @@ h1{
     font-size: 100px;
     font-family: 'Abyssinica SIL', 'Verdana', 'Helvetica', sans-serif;
 }
-h2, h3, h4 h5, h6{
+h2{
+    text-align: center;
+    padding: 10px;
+    color:black;
+    line-height: 5px;
+    font-size: 40px;
+    font-family: 'Abyssinica SIL', 'Verdana', 'Helvetica', sans-serif;
+}
+h3, h4 h5, h6{
     text-align: center;
     padding: 10px;
     color:black;
@@ -87,6 +95,10 @@ main section img{
 main, section{
     text-align: center;
 }
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
 .home-title{
     font-size: 2.25em;
     margin-top: 10px;
@@ -118,6 +130,26 @@ main, section{
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
+.rivers-card{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card{
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card{
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+#background{
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+.mountains{
+    grid-column: 2/7;
+    grid-row: 5/8;
+}
 .icon{
     width: 80px;
 }
@@ -125,16 +157,19 @@ main, section{
     height: 750px;
     background-color: #05668d;
 }
-.mountains{
+.card-img, .mountains{
     width: 100%;
 }
 .msg{
     background-color: #ec981a;
     padding: 55px;
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
 .msg p{
     font-family: 'Source Sans Pro:ital', 'Helvetica', 'Verdana',sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
+    line-height: 2em;
     padding-bottom: 15px;
 }
 footer{
