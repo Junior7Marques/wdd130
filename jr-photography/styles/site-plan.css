@@ -2,10 +2,10 @@
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #AA747E   ;
+  --secondary-color: #E0CCDA ;
+  --accent1-color: #B1DAE7;
+  --accent2-color: #FFFFFF;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
@@ -36,6 +36,10 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  width: 600px;
+  height: 700px;
+  border: 4px solid black;
+  border-radius: 20%;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
