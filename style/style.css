@@ -9,9 +9,11 @@ h1{
 }
 nav{
     background-color: rgb(52, 104, 216);
-    text-indent: 300px;
+    text-align: center;
     padding: 40px;
-    font-size:larger;
+    font-size: 1.5em;
+    justify-content: space-around;
+    display: flex;
 }
 a{
     color: white;
@@ -20,7 +22,7 @@ a{
 a:hover{
     background-color: white;
     color: rgb(137, 168, 235);
-    padding: 13px;
+    padding: 10px;
 }
 footer{
     background-color: black;
