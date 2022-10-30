@@ -1,1 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&family=Coming+Soon&family=Parisienne&family=Prata&display=swap');
+
+body{
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #ec981a;
+}
+#content{
+    background-color: #FFFFFF;
+    max-width: 1600px;
+    margin:0 auto;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav{
+    background-color: #FFFFFF;
+    color: #52687A;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+nav a{
+    color: #52687A;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.3em;
+    font-size: 2em;
+    font-family: 'Parisienne', 'Comic Neue', 'Coming Soon', sans-serif;
+}
+nav a:hover{
+    background-color: #B1DAE7;
+    color: #FFFFFF;
+}
+.logo{
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
