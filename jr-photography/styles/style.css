@@ -6,7 +6,8 @@ body{
     padding: 0;
 }
 header{
-    background-color: #ec981a;
+    background-color: #FFFFFF;
+    display: grid;
 }
 #content{
     background-color: #FFFFFF;
@@ -14,7 +15,6 @@ header{
     margin:0 auto;
 }
 #logo_link{
-    padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
@@ -24,6 +24,8 @@ nav{
     display: flex;
     justify-content: space-around;
     padding: 1em;
+    margin-top: -116px;
+    z-index: 2;
 }
 nav a{
     color: #52687A;
@@ -32,13 +34,15 @@ nav a{
     line-height: 1.3em;
     font-size: 2em;
     font-family: 'Parisienne', 'Comic Neue', 'Coming Soon', sans-serif;
+    border-radius: 15px;
 }
 nav a:hover{
     background-color: #B1DAE7;
     color: #FFFFFF;
+    padding: 0.75em;
 }
 .logo{
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     position: relative;
 }
