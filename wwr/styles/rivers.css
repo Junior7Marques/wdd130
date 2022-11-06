@@ -14,7 +14,7 @@ h1{
     text-align: center;
     padding: 10px;
     line-height: 5px;
-    font-size: 100px;
+    font-size: 20px;
     font-family: 'Abyssinica SIL', 'Verdana', 'Helvetica', sans-serif;
 }
 h2{
@@ -22,7 +22,7 @@ h2{
     padding: 10px;
     color:black;
     line-height: 5px;
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Abyssinica SIL', 'Verdana', 'Helvetica', sans-serif;
 }
 h3, h4 h5, h6{
@@ -37,6 +37,7 @@ nav{
     background-color: #ec981a;
     color: white;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     padding: 1em;
 }
