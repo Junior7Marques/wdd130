@@ -10,34 +10,23 @@ body{
     max-width: 1600px;
     margin:0 auto;
 }
-h1{
+h1, h2, h3{
     text-align: center;
     padding: 10px;
     line-height: 5px;
     font-size: 20px;
     font-family: 'Abyssinica SIL', 'Verdana', 'Helvetica', sans-serif;
+    color: black;
 }
-h2{
-    text-align: center;
-    padding: 10px;
-    color:black;
-    line-height: 5px;
-    font-size: 20px;
-    font-family: 'Abyssinica SIL', 'Verdana', 'Helvetica', sans-serif;
-}
-h3, h4 h5, h6{
-    text-align: center;
-    padding: 10px;
-    color:black;
-    line-height: 5px;
-    font-size: 45px;
-    font-family: 'Abyssinica SIL', 'Verdana', 'Helvetica', sans-serif;
+h4{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 75px;
 }
 nav{
     background-color: #ec981a;
     color: white;
     display: flex;
-    align-items: center;
     justify-content: space-around;
     padding: 1em;
 }
@@ -99,11 +88,6 @@ main, section{
 .home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-}
-.home-title{
-    font-size: 2.25em;
-    margin-top: 10px;
-    color: #E8F1F2;
 }
 #hero-img{
     width: 100%;
@@ -213,15 +197,10 @@ footer p{
     #hero {
         margin-top: 0;
     }
-    #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
-    }
     .home-title {
-        font-size: 25px;
-        color: #6f7364;
+        margin-top: 10px;
+        font-size: 100px;
+        color: white;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
