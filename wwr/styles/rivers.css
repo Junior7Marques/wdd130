@@ -166,9 +166,6 @@ footer p{
     color: white;
     font-size: 1em;
 }
-
-
-
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
