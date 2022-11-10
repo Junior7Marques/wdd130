@@ -42,6 +42,8 @@ nav a{
 nav a:hover{
     background-color: #9FD356;
     color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000000;
 }
 #logo_link{
     padding-top: 5px;
@@ -52,6 +54,11 @@ nav a:hover{
     width: 180px;
     height: 170px;
     position: relative;
+}
+header{
+    background-color: #ec981a;
+    display: grid;
+    grid-template-columns: 180px auto;
 }
 #hero{
     display: grid;
@@ -72,31 +79,28 @@ nav a:hover{
     margin-top: 100px;
     color: white;
 }
-header{
-    background-color: #ec981a;
-    display: grid;
-    grid-template-columns: 180px auto;
-}
 img{
     max-width: 100%;
 }
 #hero-img{
     width: 100%;
 }
-.book, .join{
+.book{
     color: black;
     background-color: #05668d;
     text-decoration: none;
     padding: 15px;
     border-radius: 7px;
+    box-shadow: 2px 6px 12px #000000;
 }
-.book:hover, .join:hover{
+.book:hover{
     background-color: #9FD356;
     color: white;
-    border-radius: 7px;
+    box-shadow: 4px 4px 4px #000000;
 }
 .button-box{
     text-align: center;
+    margin:55px
 }
 .river-img1, .river-img2, .river-img3{
     border: 9px solid black;
@@ -185,6 +189,7 @@ footer p{
         margin-top: 10px;
         font-size: 100px;
         color: white;
+        text-shadow: 3px 3px #000000;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
