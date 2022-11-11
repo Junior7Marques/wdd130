@@ -194,6 +194,7 @@ footer{
 footer p, a{
     color: white;
     font-size: 1em;
+    text-decoration: none;
 }
 footer p:hover, a:hover{
     background-color: #9FD356;
