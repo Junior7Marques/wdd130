@@ -157,6 +157,8 @@ img{
 }
 .contact-img1{
     border-radius: 50%;
+    border: 4px solid black;
+    box-shadow: 5px 5px 10px #6f7364;
     margin-left: 100px;
 }
 .contact-grid{
