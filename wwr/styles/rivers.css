@@ -13,7 +13,7 @@ body{
 h1, h2, h3{
     text-align: center;
     padding: 10px;
-    line-height: 5px;
+    line-height: 1.25em;
     font-size: 40px;
     font-family: 'Abyssinica SIL', 'Verdana', 'Helvetica', sans-serif;
     color: black;
@@ -26,7 +26,7 @@ h4{
 p{
     padding: 10px;
     color:black;
-    line-height: 1.5em;
+    line-height: 1.25em;
     font-size: 1em;
     font-family: 'Source Sans Pro:ital', 'Helvetica', 'Verdana',sans-serif;
 }
