@@ -161,6 +161,9 @@ img{
     box-shadow: 5px 5px 10px #6f7364;
     margin-left: 100px;
 }
+.contact-img1:hover{
+    transform: scale(1.1);
+}
 .contact-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
