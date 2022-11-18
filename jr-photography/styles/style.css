@@ -17,6 +17,7 @@ header{
 #logo_link{
     justify-self: center;
     align-self: center;
+    margin-top: -8%;
 }
 nav{
     background-color: #FFFFFF;
@@ -104,4 +105,15 @@ nav a:hover{
 .card-img1, .card-img2, .card-img3, .card-img4, .card-img5, .card-img6, .card-img7, .card-img8, .card-img9, .card-img10, .card-img11, .card-img12{
     width: 400px;
     height: 225px;
+}
+.button{
+    color: white;
+    background-color: #AA747E;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 2px 6px 12px #000000;
+    z-index: 2;
+    grid-column: 1/1;
+    grid-row: 2/2;
 }
