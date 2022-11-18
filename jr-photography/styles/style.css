@@ -24,7 +24,8 @@ nav{
     color: #52687A;
     display: flex;
     justify-content: space-around;
-    padding: 0.75em;
+    align-self: center;
+    padding: 1em;
     margin-top: -116px;
     z-index: 2;
 }
@@ -36,11 +37,11 @@ nav a{
     font-size: 1.7em;
     font-family: 'Parisienne', 'Comic Neue', 'Coming Soon', sans-serif;
     border-radius: 10px;
+    padding: 0.75em;
 }
 nav a:hover{
     background-color: #B1DAE7;
     color: #FFFFFF;
-    padding: 0.75em;
 }
 .logo{
     width: 450px;
@@ -126,11 +127,30 @@ nav a:hover{
     color: #FFFFFF;
     padding: 25px;
     box-shadow: 2px 6px 12px #000000;
-    font-family: 'Coming Soon' , 'Coming Soon', 'Parisienne', sans-serif;
 }
-#title{
+.title{
     font-family: 'Parisienne', 'Comic Neue', 'Coming Soon', sans-serif;
     text-align: center;
     font-size: 2.5em;
     color:#52687A;
+}
+h2, h3, h4, h5, h6{
+    font-family: 'Coming Soon' , 'Coming Soon', 'Parisienne', sans-serif;
+    color: #AA747E;
+    font-size: 1.7em;
+    text-align: center;
+    line-height: 1.2em;
+}
+p{
+    font-family: 'Coming Soon' , 'Comic Neue', 'Parisienne', sans-serif;
+    text-align: center;
+    line-height: 1.7em;
+    font-size: 1.2em;
+    color: #52687A;
+    padding: 10px;
+}
+p:hover{
+    background-color: #AA747E;
+    color: #FFFFFF;
+    padding: 10px;
 }
