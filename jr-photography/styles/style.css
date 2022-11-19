@@ -171,9 +171,13 @@ footer{
     margin-top: 5px;
     align-items: center;
     padding: 25px 50px;
+    background-color: #FFFFFF;
+    max-width: 1600px;
+    margin:0 auto;
 }
 footer p, a{
     text-decoration: none;
     color: #52687A;
     font-size: 1em;
+    padding: 0.75em;    
 }
