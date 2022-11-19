@@ -200,7 +200,7 @@ footer p a{
     justify-items: center;
 }
 #top-essay{
-    width: 1500px;
+    width: 1600px;
     height: 500px;
 }
 #essay-img{
@@ -214,10 +214,9 @@ footer p a{
     grid-row: 1/2;
     justify-self:center;
     align-self:center;
-    margin-top: 120px;
     z-index: 2;
 }
-h7{
+#essay-title{
     color: #FFFFFF;
     font-size: 5em;
     font-family: 'Parisienne', 'Comic Neue', 'Coming Soon', sans-serif;
