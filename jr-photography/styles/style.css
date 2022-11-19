@@ -147,7 +147,9 @@ p{
     line-height: 1.7em;
     font-size: 1.2em;
     color: #52687A;
-    padding: 10px;
+    padding: 12px;
+    max-width: 1600px;
+    margin:0 auto;
 }
 .paragraphs p:hover{
     background-color: #AA747E;
@@ -220,13 +222,14 @@ h7{
     font-size: 5em;
     font-family: 'Parisienne', 'Comic Neue', 'Coming Soon', sans-serif;
 }
-#female-photos{
+#female-photos, #corporate-photos, #pregnant-photos, #couple-photos{
     grid-template-columns: 4fr;
     grid-template-rows: 3fr;
     align-items: center;
     justify-content: space-around;
     text-align: center;
 }
-.fpic1, .fpic2, .fpic3, .fpic4{
+.fpic1, .cpic1, .prg1, .cpl1{
     width: 370px;
+    height: 300px;
 }
