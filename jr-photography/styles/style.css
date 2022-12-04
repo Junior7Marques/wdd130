@@ -23,11 +23,17 @@ nav{
     background-color: #FFFFFF;
     color: #52687A;
     display: flex;
-    justify-content: space-around;
     align-self: center;
-    padding: 1em;
-    margin-top: -116px;
-    z-index: 2;
+    justify-self: center;
+    justify-content: space-around;
+    padding: 0.9em;
+    margin-top: 210px;
+    z-index: 1;
+    position: fixed;
+    width: 1500px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 nav a{
     color: #52687A;
